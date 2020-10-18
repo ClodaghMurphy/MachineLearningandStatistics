@@ -2,29 +2,28 @@
 GMIT - Machine Learning and Statistics module 2020. 
 
 
-This repository contains an assessment submitted as GMIT Programming for XXXXXXXXXXXX Project, last commit XXXXXXXX
+This repository contains an assessment submitted as GMIT Programming for Tasks 2020 Assessment, last commit December 18, 2020.
 Course Higher Diploma in Data Analytics, GMIT, Ireland
-The Lecturer is XXXXXX
+The Lecturer is Dr. Ian McLoughlin
 Author: Clodagh Murphy
 Email: G00376300@gmit.ie
 Dates: October- December 2020
 
-## Plan for ProgDA Project based on the marking scheme
+## Plan for Tasks 2020 Assessment based on the marking scheme
 Intial Steps: Creategithub repository, create notebook, prepare project plan.<br>
-Research: Investigation of the OPW Heritage Site Details data set as demonstrated by references, background information and approach.<br>
-Development: Clear, well-written, and efficient code with appropriate comments.<br>
-Consistency: Good planning and pragmatic attitude to work as evidenced by commit history.<br>
-Documentation: Concise descriptions and plots of variables in the data set.<br>
+Research: Investigation of the topics.  Submission based on referenced literature, particularly academic literature; evidence of understanding<br>
+of the documentation for any software or libraries used.<br>
+Development: Clear, clean well-written, and efficient code with appropriate comments.<br>
+Environment can be set up as described; code works without tweaking and as described;  evidence of consideration<br>
+of standards and conventions appropriate to code of this kind.<br>
+Consistency: Evidence of planning and project management; pragmatic attitude to work as evidenced by commit history.<br>
+Documentation: Clear documentation of how to create an environment in which any code will run, how to prepare<br>
+the code for running, how to run the code including setting any options or flags, and what to expect upon running the code. Concise descriptions<br>
+of code in comments and README.<br>
 Conclusion: Summarise findings of the analysis.<br>
 
 ## 1. Description of the Project
-• Choose a real-world phenomenon that can be measured and for which you could
-collect at least one-hundred data points across at least four different variables.<br>
-• Investigate the types of variables involved, their likely distributions, and their
-relationships with each other.<br>
-• Synthesise/simulate a data set as closely matching their properties as possible.<br>
-• Detail your research and implement the simulation in a Jupyter notebook – the
-    data set itself can simply be displayed in an output cell within the notebook.<br> 
+• 
 
 ## 2. Instructions for downloading this repository
 Log on to GitHub and search for user ClodaghMurphy, the repository is entitled ProgDA_ProjectDec2019.<br>
