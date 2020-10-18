@@ -1,13 +1,13 @@
 # MachineLearningandStatistics
-GMIT - Machine Learning and Statistics module 2020. 
+GMIT - Machine Learning and Statistics module 2020. <br>
 
 
-This repository contains an assessment submitted as GMIT Programming for Tasks 2020 Assessment, last commit December 18, 2020.
-Course Higher Diploma in Data Analytics, GMIT, Ireland
-The Lecturer is Dr. Ian McLoughlin
-Author: Clodagh Murphy
-Email: G00376300@gmit.ie
-Dates: October- December 2020
+This repository contains an assessment submitted as GMIT Programming for Tasks 2020 Assessment, last commit December 18, 2020.<br>
+Course Higher Diploma in Data Analytics, GMIT, Ireland<br>
+The Lecturer is Dr. Ian McLoughlin<br>
+Author: Clodagh Murphy<br>
+Email: G00376300@gmit.ie<br>
+Dates: October- December 2020<br>
 
 ## Plan for Tasks 2020 Assessment based on the marking scheme
 Intial Steps: Creategithub repository, create notebook, prepare project plan.<br>
