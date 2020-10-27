@@ -10,14 +10,7 @@ Course Higher Diploma in Data Analytics, GMIT, Ireland<br>
 * Dates: October- December 2020<br>
 
 
-Clear documentation of how to create an environment
-in which any code will run, how to prepare
-the code for running, how to run the code
-including setting any options or flags, and what
-to expect upon running the code. Concise descriptions
-of code in comments and README.
-
-## ?. Contents of this repository
+## 1. Contents of this repository
 The repository contains:
 * This `README.md` file
 * `CourseWork folder` - jupyter notebooks from practical examples in lectures
@@ -26,7 +19,7 @@ The repository contains:
 
 
 
-## 1. Instructions for downloading this repository
+## 2. Instructions for downloading this repository
 Log on to GitHub and search for user ClodaghMurphy, the repository is entitled MachineLearningandStatistics.<br>
 On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
 ```
@@ -34,7 +27,7 @@ git clone https://github.com/ClodaghMurphy/MachineLearningandStatistics
 ```
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
 
-## 2. How to run the jupyter notebook containing this project 
+## 3. How to run the jupyter notebook containing this project 
 At [Anaconda](https://www.anaconda.com/) website download and install the 'Individual Edition' to gain access to all of the relevant software.
 
 Jupyter Notebooks are a spin-off project from the IPython project. The name, Jupyter, comes from the programming languages that it supports: Julia, Python, and R.<br>
