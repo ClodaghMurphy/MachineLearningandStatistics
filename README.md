@@ -21,7 +21,7 @@ The repository contains:
 
 ## 2. Instructions for downloading this repository
 Log on to GitHub and search for user ClodaghMurphy, the repository is entitled MachineLearningandStatistics.<br>
-On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
+On github.com choose the green `Code' button to clone or download the code onto your machine.<br>
 ```
 git clone https://github.com/ClodaghMurphy/MachineLearningandStatistics
 ```
