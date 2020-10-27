@@ -19,19 +19,19 @@ of code in comments and README.
 
 ## ?. Contents of this repository
 The repository contains:
-* This 'README.md' file
-* 'CourseWork' folder - jupyter notebooks from practical examples in lectures
-* 'Project2020' - folder containing all relevant files pertaining to the project 50%
-* 'Tasks2020' - folder containing all relevant files pertaining to the Tasks Assessment 50%
+* This `README.md` file
+* `CourseWork folder` - jupyter notebooks from practical examples in lectures
+* `Project2020` - folder containing all relevant files pertaining to the project 50%
+* `Tasks2020` - folder containing all relevant files pertaining to the Tasks Assessment 50%
 
 
 
 ## 1. Instructions for downloading this repository
 Log on to GitHub and search for user ClodaghMurphy, the repository is entitled MachineLearningandStatistics.<br>
 On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
-'''
+```
 git clone https://github.com/ClodaghMurphy/MachineLearningandStatistics
-'''
+```
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
 
 ## 2. How to run the jupyter notebook containing this project 
