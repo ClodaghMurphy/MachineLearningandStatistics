@@ -9,6 +9,15 @@ Author: Clodagh Murphy<br>
 Email: G00376300@gmit.ie<br>
 Dates: October- December 2020<br>
 
+
+## X. Contents of this repository
+The repository contains:
+* This `README.md` file
+* `sqrt2` - a python function to print the $ \sqrt{2} $ to 100 decimal places
+* 
+* 
+
+
 ## Plan for Tasks 2020 Assessment based on the marking scheme
 Intial Steps: Creategithub repository, create notebook, prepare project plan.<br>
 Research: Investigation of the topics.  Submission based on referenced literature, particularly academic literature; evidence of understanding<br>
@@ -22,15 +31,21 @@ the code for running, how to run the code including setting any options or flags
 of code in comments and README.<br>
 Conclusion: Summarise findings of the analysis.<br>
 
-## 1. Description of the Project
+
+
+
+## X. Description of the Project
 • 
 
-## 2. Instructions for downloading this repository
-Log on to GitHub and search for user ClodaghMurphy, the repository is entitled ProgDA_ProjectDec2019.<br>
-On github.com choose the "Clone or download" button to copy the code onto your machine.<br>
+## X. Instructions for downloading this repository
+Log on to GitHub and search for user ClodaghMurphy, the repository is entitled MachineLearningandStatistics.<br>
+On github.com choose the green `Code` button to clone or download the code onto your machine.<br>
+```
+git clone https://github.com/ClodaghMurphy/MachineLearningandStatistics
+```
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
 
-## 3. How to run the jupyter notebook containing this project 
+## X. How to run the jupyter notebook containing this project 
 Jupyter Notebooks are a spin-off project from the IPython project. The name, Jupyter, comes from the programming languages that it supports: Julia, Python, and R.<br>
 It is an open source web application used to create and share documents that contain live code, equations, visualizations and text.<br>
 The Jupyter Notebook is a useful tool to learn Python language and also enables sharing of data and images in a very accessible way.<br>
