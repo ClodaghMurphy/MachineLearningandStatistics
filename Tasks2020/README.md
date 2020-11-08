@@ -13,10 +13,11 @@ Dates: October- December 2020<br>
 ## X. Contents of this repository
 The repository contains:
 * This `README.md` file
-* `sqrt2` - a python function to print the $ \sqrt{2} $ to 100 decimal places
-* 
-* 
-
+*`all_tasks` jupyter notebook with four tasks set out in this order
+1. `sqrt2` - a python function to print the $ \sqrt{2} $ to 100 decimal places
+2. `Chi-Squared Test` - verifying the result that appears on wikipedia using `scipy.stats`
+3. 
+4.
 
 ## Plan for Tasks 2020 Assessment based on the marking scheme
 Intial Steps: Creategithub repository, create notebook, prepare project plan.<br>
