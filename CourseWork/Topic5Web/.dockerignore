@@ -1,0 +1,12 @@
+.git
+Dockerfile
+.DS_Store
+.gitignore
+README.md
+__pycache__/
+*.py[cod]
+*$py.class
+
+## What is a .dockerignore file?
+Similar to a .gitignore file, a .Dockerignore files allows you to mention a list of files and/or directories which you might want to ignore while building the image. This would def
+initely reduce the size of the image and also help to speed up the docker build process.
