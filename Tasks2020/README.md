@@ -16,7 +16,8 @@ The repository contains:
 *`all_tasks` jupyter notebook with four tasks set out in this order
 1. `sqrt2` - a python function to print the $ \sqrt{2} $ to 100 decimal places
 2. `Chi-Squared Test` - verifying the result that appears on wikipedia using `scipy.stats`
-3. 
+3. `stdev.s` - demonstrate using numpy that excel's STDEV.S function is a better estimate for the standard
+deviation of a population than STDEV.P
 4.
 
 ## Plan for Tasks 2020 Assessment based on the marking scheme
