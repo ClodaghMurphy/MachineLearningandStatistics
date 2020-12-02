@@ -16,9 +16,8 @@ The repository contains:
 *`all_tasks` jupyter notebook with four tasks set out in this order
 1. `sqrt2` - a python function to print the $ \sqrt{2} $ to 100 decimal places
 2. `Chi-Squared Test` - verifying the result that appears on wikipedia using `scipy.stats`
-3. `stdev.s` - demonstrate using `numpy` that excel's STDEV.S function is a better estimate for the standard
-deviation of a population than STDEV.P
-4.`k-means`-use of `scikit-learn` to apply k-means clustering to Fisher’s famous Iris data set
+3. `stdev.s` - demonstrate using `numpy` that excel's STDEV.S function is a better estimate for the standard deviation of a population than STDEV.P.
+4. `k-means`-use of `scikit-learn` to apply k-means clustering to Fisher’s famous Iris data set
 
 
 
@@ -44,15 +43,10 @@ If you use pip, you can install it with:
 If installing using pip install --user, you must add the user-level bin directory to your PATH environment variable in order to launch jupyter lab. If you are using a Unix derivative (FreeBSD, GNU / Linux, OS X), you can achieve this by using export PATH="$HOME/.local/bin:$PATH" command.
 
 ##### Run JupyterLab
-Once installed, launch Jupyter Notebook with:
+Once installed, launch Jupyter Notebook on your terminal with:
 `jupyter notebook`
 
 
-
-
-
-In order to install: On the command line, $ pip install jupyter<br>
-After intall, on terminal, type the command: $ jupyter notebook<br>
 Jupyter will initialise in the background and your default browser will pop up in a new tab connecting to webserver.<br> http://localhost:8888/tree<br>
 The terminal will simultaneously display instructions on how to stop the connection to that webserver in addition to URL details that <br>contain a unique token.<br>
 
