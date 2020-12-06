@@ -17,18 +17,6 @@ The repository contains:
 * 
 * 
 
-## Plan for Project 2020 Assessment based on the marking scheme
-Intial Steps: Creategithub repository, create notebook, prepare project plan.<br>
-Research: Investigation of the topics.  Submission based on referenced literature, particularly academic literature; evidence of understanding<br>
-of the documentation for any software or libraries used.<br>
-Development: Clear, clean well-written, and efficient code with appropriate comments.<br>
-Environment can be set up as described; code works without tweaking and as described;  evidence of consideration<br>
-of standards and conventions appropriate to code of this kind.<br>
-Consistency: Evidence of planning and project management; pragmatic attitude to work as evidenced by commit history.<br>
-Documentation: Clear documentation of how to create an environment in which any code will run, how to prepare<br>
-the code for running, how to run the code including setting any options or flags, and what to expect upon running the code. Concise descriptions<br>
-of code in comments and README.<br>
-Conclusion: Summarise findings of the analysis.<br>
 
 ## Z. Description of the Project
 • 
@@ -53,5 +41,10 @@ The terminal will simultaneously display instructions on how to stop the connect
 http://localhost:8888/?token=XXXXXYYYYY123456789<br>
 Chrome and firefox are the optimal web browsers to use and you may need to copy the url into one of these instead of using the default<br> pop-up.<br>
 You are running the Jupyter server and can use it to open and engage with my repository contents.<br>
+
+## How to run the web service
+$ export FLASK_APP=web-service.py
+$ flask run
+ * Running on http://127.0.0.1:5000/
 
 
