@@ -12,15 +12,24 @@ Dates: October- December 2020<br>
 
 ## X. Contents of this repository
 The repository contains:
-* This `README.md` file
-* 
-* 
-* 
+* This `README.md` 
+* `train-model.ipynb` trains a model using the powerproduction data set. In the notebook the model is explained and its accuracy analysed.<br>
 Note: Code that prints long lists of numbers on the screen has been commented out to keep the pages compact.
 These can be uncommented as required.
 
+
+* 
+* 
+
+
 ## Z. Description of the Project
-• 
+Create a web service that uses machine learning to make predictions
+based on the data set powerproduction. 
+
+Produce a model that accurately predicts wind turbine power output from wind speed
+values, as in the data set. 
+Develop a web service that will respond with
+predicted power values based on speed values sent as HTTP requests.
 
 ## Z. Instructions for downloading this repository
 Log on to GitHub and search for user ClodaghMurphy, the repository is entitled MachineLearningandStatistics.<br>
