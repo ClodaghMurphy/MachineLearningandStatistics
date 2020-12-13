@@ -65,9 +65,27 @@ Chrome and firefox are the optimal web browsers to use and you may need to copy 
 You are running the Jupyter server and can use it to open and engage with my repository contents.<br>
 
 
+
 ## How to run the web service
-$ export FLASK_APP=web-service.py
-$ flask run
+
+Follow instructions!
+Input the relevant line on your cmd linux/Windows/bash
+A "hard kill" is required to close the application (Ctrl C)
+````bash Linux
+export FLASK_APP=rando.py
+python3 -m flask run
+````
+
+````bash Windows
+set FLASK_APP=rando.py
+python -m flask run````
+
+
+docker build . -t rando-image
+docker run --name rando-container -d -p 5000:5000 rando-image
+
+$ export FLASK_APP=web-service.py<br>
+$ flask run<br>
  * Running on http://127.0.0.1:5000/
 
 
