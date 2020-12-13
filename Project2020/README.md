@@ -16,7 +16,8 @@ The repository contains:
 * 
 * 
 * 
-
+Note: Code that prints long lists of numbers on the screen has been commented out to keep the pages compact.
+These can be uncommented as required.
 
 ## Z. Description of the Project
 • 

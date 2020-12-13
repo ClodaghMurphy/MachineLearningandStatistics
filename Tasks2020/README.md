@@ -18,7 +18,8 @@ The repository contains:
 2. `Chi-Squared Test` - verifying the result that appears on wikipedia using `scipy.stats`
 3. `stdev.s` - demonstrate using `numpy` that excel's STDEV.S function is a better estimate for the standard deviation of a population than STDEV.P.
 4. `k-means`-use of `scikit-learn` to apply k-means clustering to Fisher’s famous Iris data set
-
+Note: Code that prints long lists of numbers on the screen has been commented out to keep the pages compact.
+These can be uncommented as required.
 
 
 ## 2. Instructions for downloading this github repository
