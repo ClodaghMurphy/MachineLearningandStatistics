@@ -5,15 +5,16 @@
 <!--which is grand but not very visually appealing    -->
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <!--code for a favicon-->
- <link rel="shortcut icon" href="favicon.ico">   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+ <!--code for a favicon--> <link rel="shortcut icon" href="favicon.ico">   
+ 
     <body style=background-color:rgb(250,250,210)></body><!--html code for nice background colour-->
-    <title>Clean Power Predict</title>
+       <title>Clean Power Predict</title>
+
   </head>
   <body>
     <h4>Hello, from index.html! An example of productisation.</h4>
@@ -21,7 +22,7 @@
     <div class="container">
         <div class="row">
           <div class="col-sm">
-            <input class="form-control" id="output" type="text" placeholder="Input windspeed here for an accurate power prediction." readonly>
+            <input class="form-control" id="output" type="text" placeholder="Input windspeed here to predict." readonly>
           </div>
         </div>
         <div class="row">
@@ -39,6 +40,15 @@
           <div class="col-sm">
             <button type="button" class="btn btn-primary" id="linear-button">Linear</button>
           </div>
+          <div class="row">
+            <div class="col-sm">
+              <input class="form-control" id="output" type="text" placeholder="Input windspeed here" readonly=False>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <button type="button" class="btn btn-primary" id="linear-button">Linear</button>
+            </div>
         </div>
       </div>
 

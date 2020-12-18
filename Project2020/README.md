@@ -13,13 +13,23 @@ Dates: October- December 2020<br>
 ## X. Contents of this repository
 The repository contains:
 * This `README.md` 
+* `roughwork.ipynb` shows some of the detail behind the project
 * `train-model.ipynb` trains a model using the powerproduction data set. In the notebook the model is explained and its accuracy analysed.<br>
 Note: Code that prints long lists of numbers on the screen has been commented out to keep the pages compact.
 These can be uncommented as required.
 
 
-* 
-* 
+* `powerproduction.csv` was the original dataset provided
+* `cleanpower.csv` is the updated version 
+* `requirements.txt` - what is needed is set out clearly in this separate file. 
+It used for specifying what python packages (and versions) are required to run this project. 
+To install your packages using requirements.txt:
+
+* Open a terminal or command prompt<br>
+* Navigate to the folder with requirements.txt<br>
+* run: pip install -r requirements.txt<br>
+* Installation of dependencies is complete.<br>
+*
 
 
 ## Z. Description of the Project
@@ -71,21 +81,21 @@ You are running the Jupyter server and can use it to open and engage with my rep
 Follow instructions!
 Input the relevant line on your cmd linux/Windows/bash
 A "hard kill" is required to close the application (Ctrl C)
-````bash Linux
-export FLASK_APP=rando.py
-python3 -m flask run
-````
-
-````bash Windows
-set FLASK_APP=rando.py
-python -m flask run````
+`bash Linux
+export FLASK_APP=webservice.py
+python3 -m flask run`
 
 
-docker build . -t rando-image
-docker run --name rando-container -d -p 5000:5000 rando-image
+`bash Windows
+set FLASK_APP=webservice.py
+python -m flask run`
 
-$ export FLASK_APP=web-service.py<br>
+
+`docker build . -t rando-image
+docker run --name rando-container -d -p 5000:5000 rando-image`
+
+`$ export FLASK_APP=web-service.py<br>
 $ flask run<br>
- * Running on http://127.0.0.1:5000/
+ * Running on http://127.0.0.1:5000/`
 
 
