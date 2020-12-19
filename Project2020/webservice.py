@@ -1,4 +1,5 @@
-#https://www.datacamp.com/community/tutorials/machine-learning-models-api-python
+#SEE ALSO https://www.datacamp.com/community/tutorials/machine-learning-models-api-python
+
 
 # flask for web app.
 import flask as fl
@@ -11,6 +12,11 @@ import numpy as np
 #fl you've abbreviated it at import stage
 #use functions through the module name
 app = fl.Flask(__name__)
+
+
+###############################
+#pickling piece#
+#################################
 
 # Add root route.
 #@ is a decorator calling the app defined above
@@ -33,10 +39,16 @@ def uniform():
 def dataset(): 
  return app.send_static_file('cleanpower.csv')
 
-@app.route('/predict')
-def predict():
-  return "this is where the prediction page will go!"
+@app.route('/predictlinear')
+def predictlinear():
+  return {"predictlinear": (1+5)}
 
+
+@app.route('/predictpoly')
+def predictpoly():
+  return {"this is where the polynomial prediction page will go!": (5*2)}
+
+  
 
 if __name__ == '__main__':
     app.run(debug=True)
