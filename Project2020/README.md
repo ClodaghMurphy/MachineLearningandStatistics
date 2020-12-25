@@ -21,6 +21,10 @@ Django, Falcon, Flask and Hug are some of the web service development frameworks
 ## X. Contents of this repository
 The repository contains:
 * This `README.md` 
+* `Dockerfile` is a simple text file containing a set of commands to create a docker image.
+   It's a lightweight way to package an application so that it can be moved between different servers while ensuring consistency of environments.
+   Follow the instructions below to run the docker build command, this builds the docker image on your machine
+   The docker run command will create the container using the instructions set out in the dockerfile.
 * `roughwork.ipynb` shows some of the detail behind the project
 * `train-model.ipynb` trains a model using the powerproduction data set. In the notebook the model is explained and its accuracy analysed.<br>
 Note: Code that prints long lists of numbers on the screen has been commented out to keep the pages compact.
