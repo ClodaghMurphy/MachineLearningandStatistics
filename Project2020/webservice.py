@@ -54,7 +54,8 @@ def predictpoly():
  poly = joblib.load("model2.pkl")#import the previously pickled model
  #There is something wrong here, i'm getting a server error 500
  #the resource failed to load
- return {"this is where the polynomial prediction page will go": (poly.predict([[8.5]]) )}
+ #return {"this is where the polynomial prediction page will go": (poly.predict([[8.5]]) )}
+
 
   
 
