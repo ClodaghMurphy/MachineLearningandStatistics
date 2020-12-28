@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!-- Copied and adapted from *****!!! Bootstrap homepage. -->
+<!-- Copied and adapted from https://getbootstrap.com/ Bootstrap homepage. -->
       <!--If you don't build a lovely html page, your function will just show up on a page as json, -->
 <!--which is grand but not very visually appealing    -->
 <html lang="en">
@@ -11,47 +11,81 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <!--code for a favicon--> <link rel="shortcut icon" href="favicon.ico">   
- 
+
     <body style=background-color:rgb(250,250,210)></body><!--html code for nice background colour-->
+
+
+    
        <title>Clean Power Predict</title>
 
   </head>
   <body>
-    <h4>Hello, from index.html! An example of productisation.</h4>
+
+
   <h1> CLEAN POWER PREDICTION</h1>
+  <p>Create a web service that uses machine learning to make predictions
+    based on the data set powerproduction.</p>
+
+    <p>Power can be generated when windspeed is between 0.3 and 24.3</p>
     <div class="container">
         <div class="row">
           <div class="col-sm">
-            <input class="form-control" id="output" type="text" placeholder="Input windspeed here to predict." readonly>
+            <input class="form-control" id="input" type="text" placeholder="Input windspeed here to predictusing polynomial prediction." >
+            <div class="row">
+              <div class="col-sm">
+                <button type="button" class="btn btn-success" id="polynomial-button">Polynomial</button>
+                </div>      
           </div>
-        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+               
+                <input class="form-control" id="output" type="text" placeholder="Output"readonly>
+              </div>
+    </div>
+
+
+
+ <div class="container">
         <div class="row">
           <div class="col-sm">
-            <button type="button" class="btn btn-success" id="polynomial-button">Polynomial</button>
+            <input class="form-control" id="input" type="text" placeholder="Input windspeed here to predict using linear prediction." >
+             <div class="row">
+               <div class="col-sm">
+                <button type="button" class="btn btn-primary" id="linear-button">Linear</button>
+                 </div>      
             </div>
+         <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                 
+                  <input class="form-control" id="output" type="text" placeholder="Output"readonly>
+                </div>
+          </div>
+ 
       </div>
+
+
+
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <input class="form-control" id="output" type="text" placeholder="Input windspeed here" readonly>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm">
-            <button type="button" class="btn btn-primary" id="linear-button">Linear</button>
-          </div>
-          <div class="row">
-            <div class="col-sm">
-              <input class="form-control" id="output" type="text" placeholder="Input windspeed here" readonly=False>
+            <input class="form-control" id="input" type="text" placeholder="Input windspeed here to predict using keras prediction." >
+             <div class="row">
+               <div class="col-sm">
+                <button type="button" class="btn-default" id="keras-button">Keras</button>
+                 </div>      
             </div>
+         <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                 
+                  <input class="form-control" id="output" type="text" placeholder="Output"readonly>
+                </div>
           </div>
-          <div class="row">
-            <div class="col-sm">
-              <button type="button" class="btn btn-primary" id="linear-button">Linear</button>
-            </div>
-        </div>
+<!-- nice image at the bottom-->         
+        <img src="5760.jpg" class="fix"/>
       </div>
-
     <!-- Optional JavaScript; choose one of the two! -->
 
 
