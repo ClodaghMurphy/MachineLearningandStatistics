@@ -11,6 +11,8 @@ import joblib
 import traceback
 import pandas as pd
 
+import joblib
+import sklearn as sklearn
 
 app = fl.Flask(__name__)
 
@@ -54,7 +56,8 @@ def predictpoly():
  poly = joblib.load("model2.pkl")#import the previously pickled model
  #There is something wrong here, i'm getting a server error 500
  #the resource failed to load
- #return {"this is where the polynomial prediction page will go": (poly.predict([[8.5]]) )}
+ 
+ return {"this is where the polynomial prediction page will go": (poly.predict([[8.5]]) )}
 
 
   
@@ -68,7 +71,7 @@ if __name__ == '__main__':
     except:
         port = 12345 # If you don't provide any port the port will be set to 12345
 
-    lr = joblib.load("model1.pkl") # Load "model.pkl"
+    #lr = joblib.load("model1.pkl") # Load "model.pkl"
     poly = joblib.load("model2.pkl")
     print ('Model loaded')
 
