@@ -27,7 +27,7 @@ git clone https://github.com/ClodaghMurphy/MachineLearningandStatistics
 ```
 For further information on how github works video guides are available here https://www.youtube.com/githubguides<br>
 
-## 3. How to run the jupyter notebook containing this project 
+## 3. How to run the jupyter notebooks 
 At [Anaconda](https://www.anaconda.com/) website download and install the 'Individual Edition' to gain access to all of the relevant software.
 
 Jupyter Notebooks are a spin-off project from the IPython project. The name, Jupyter, comes from the programming languages that it supports: Julia, Python, and R.<br>

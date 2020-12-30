@@ -17,7 +17,7 @@ Develop a web service that will respond with predicted power values based on spe
 Web service is a form of API that assumes an API is hosted over a server and can be consumed.
 Django, Falcon, Flask and Hug are some of the web service development frameworks in Python.
 
-![](./Images/GUI.jpg)
+![](../Images/GUI.jpg)
 
 ## Contents of this repository
 The repository contains:
@@ -39,7 +39,9 @@ To install packages using requirements.txt:
     - Navigate to the folder with requirements.txt<br>
     - run: pip install -r requirements.txt<br>
     - Installation of dependencies is complete.<br>
+    
 *`static` this folder contains documents pertaining to the user interface
+
 *`Images` I have stored all the images in one place
 
 
