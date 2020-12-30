@@ -17,11 +17,13 @@ Develop a web service that will respond with predicted power values based on spe
 Web service is a form of API that assumes an API is hosted over a server and can be consumed.
 Django, Falcon, Flask and Hug are some of the web service development frameworks in Python.
 
-![](../Images/GUI.jpg)
+![](/Images/GUI.jpg)
 
 ## Contents of this repository
 The repository contains:
 * This `README.md` 
+* `static` this folder contains documents pertaining to the user interface
+* `Images` I have stored all the images in one place
 * `Dockerfile` is a simple text file containing a set of commands to create a docker image.
    It's a lightweight way to package an application so that it can be moved between different servers while ensuring consistency of environments.
    Follow the instructions below to run the docker build command, this builds the docker image on your machine
@@ -40,9 +42,7 @@ To install packages using requirements.txt:
     - run: pip install -r requirements.txt<br>
     - Installation of dependencies is complete.<br>
     
-*`static` this folder contains documents pertaining to the user interface
 
-*`Images` I have stored all the images in one place
 
 
 
