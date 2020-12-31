@@ -32,6 +32,9 @@ The repository contains:
 * `train-model.ipynb` trains a model using the powerproduction data set. In the notebook the model is explained and its accuracy analysed.<br>
 Note: Code that prints long lists of numbers on the screen has been commented out to keep the pages compact.
 These can be uncommented as required.
+*`model1.pkl` - persisted linear regression model created with sklearn
+*`model2.pkl` - persisted polynomial regression model created with sklearn
+*`model3.h5`- persisted sequential model created with keras  
 * `webservice.py` flask server programme
 * `requirements.txt` - what is needed is set out clearly in this separate file. 
 It used for specifying what python packages (and versions) are required to run this project. 
@@ -42,10 +45,6 @@ To install packages using requirements.txt:
     - run: pip install -r requirements.txt<br>
     - Installation of dependencies is complete.<br>
     
-
-
-
-
 
 ## Instructions for downloading this repository
 Log on to GitHub and search for user ClodaghMurphy, the repository is entitled MachineLearningandStatistics.<br>
@@ -103,6 +102,6 @@ docker run --name webservice-container -d -p 5000:5000 webservice-image`
 
 `$ export FLASK_APP=webservice.py<br>
 $ flask run<br>
- * Running on http://127.0.0.1:5000/`
+Running on http://127.0.0.1:5000/`
 
 
